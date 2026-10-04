@@ -1,0 +1,13 @@
+{
+  "name": "cicd-practice",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test \"dist/**/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^7.0.0"
+  }
+}
